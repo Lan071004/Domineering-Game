@@ -1,0 +1,43 @@
+body{
+  margin: 0;
+  background-color: #080808;
+}
+
+.game-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.board-row {
+  display: flex;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #000000;
+  cursor: pointer;
+  background-color: #fafafa;
+}
+
+.cell-V {
+  background-color: #ffd700; /* Vertical dominoes */
+}
+
+.cell-H {
+  background-color: #ef007f; /* Horizontal dominoes */
+}
+
+.cell:hover {
+  background-color: rgb(20, 209, 243);
+}
+
+h1 {
+  font-size: 2.2em;
+  color: rgb(20, 209, 243);
+}
+
+p {
+  font-size: 1.1em;
+  color: rgb(20, 243, 150);
+}
